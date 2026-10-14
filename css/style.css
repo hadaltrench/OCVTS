@@ -1,13 +1,37 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6rem;
     background-color: #f4f4f4;
     color: #333;
 }
 
 h1 {
-    color: navy;
+    color: #2563eb;
+    font-size: 2.5rem;
+    font-family: Georgia, serif;
 }
 
-{
-    
+h2 {
+    color: #2563eb;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    color: #475569;
+    font-weight: 600;
+    font-family: Georgia, serif;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+a:hover {
+    color: #f59e0b;
+    text-decoration: underline;
+}
+a:visited {
+    color:#dd5c06;
+    transition: color 0.3;
 }
